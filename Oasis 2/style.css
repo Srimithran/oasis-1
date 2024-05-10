@@ -1,0 +1,235 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box ;
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-image: url(jexo-yVxUC9I9Cik-unsplash.jpg) ;
+    background-size: cover;
+    background-position:fixed;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+span{
+    color:#ff7aa4;
+
+}
+nav ul li {
+    list-style-type:none ;
+    display:inline-block;
+    padding: 10px 25px;
+
+
+}
+nav ul li a{
+    color:antiquewhite;
+    text-decoration:none;
+    font-weight:bold ;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:#f9004d;
+    transition:.4s;
+
+}
+.btn{
+    background-color: #f9004d;
+    color:white;
+    text-decoration:none ;
+    border:2x solid transparent;
+    font-weight: bold;
+    padding:10px 25px;
+    border-radius: 30px;
+    transition:transform .4s;
+
+}
+.btn:hover{
+    transform:scale(1.2);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform :translateY(-50%);
+}
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    font-size:75px;
+}
+h3{
+    color:rgb(17, 16, 16);
+    font-size: 25px;
+    margin-bottom:50px; 
+}
+h4{
+    color:#fcfc;
+    letter-spacing:2px;
+    font-size:20px;
+}
+.newslatter form{
+    width:380px;
+    max-width:100%;
+    position:absolute;
+}
+.newslatter form input :first-child{
+    display: inline-block;
+    width:100%;
+    padding:14px 130px 14px 15px;
+    border: 3px solid #f9004d;
+    outline:none;
+    border-radius:30px;
+}
+.newslatter form input :last-child{
+    position:absolute;
+    display: inline-block;
+    outline:none;
+    border:none;
+    padding:10px 30px;
+    border-radius:30px;
+    background-color: #f9004d;
+    color: antiquewhite;
+    box-shadow:0px 0px 5px #000,opx 0px 15px #858585;
+    top:6px;
+    right:6px;
+}
+.about{
+    width: 100%;
+    padding:100px 0px;
+    background-color: blueviolet;
+    letter-spacing: 2px;
+    height: 100%;
+    margin-top: auto;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.about-text{
+    width:550px;
+
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.about-text{
+    color:white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h2{
+    color:#f1eef0;
+}
+
+.about-text h5{
+    color :rgb(7, 214, 241);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom:45px;
+
+}
+button{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius:30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border:2px solid #f9004d;
+    cursor:pointer;
+
+}
+.projects{
+    background-color: aquamarine;
+    background-size: cover;
+    width:100%;
+    padding:100px 0px;
+}
+.title h2{
+    color:rgb(255, 255, 255);
+    font-size:75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:400px;
+}
+.card{
+    height: 185px;
+    width: 335px;
+    
+    padding:20px 35px;
+    border-radius:20px;
+    margin:15px;
+    position:relative;
+}
+.card{
+    background-image: url(pink.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color:#000;
+    font-size: large;
+}
+.contact{
+    width:100%;
+    height:290px;
+    background-image: url(jexo-yVxUC9I9Cik-unsplash.jpg);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: rgb(3, 3, 3);
+    font-size: large;
+    margin-bottom: 25px;
+    
+}
+.contact .button-two{
+    background-color: #f9004d;
+    color:rgb(239, 241, 243);
+    text-decoration:none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
